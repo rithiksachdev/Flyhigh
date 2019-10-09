@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+  background-image: url('/img/cover.jpg') no-repeat center center fixed;
+}
 .overlay {
-    background: url('/img/cover.jpg') no-repeat center center fixed;
     height: 100vh;
     width: 100%;
     position: relative;
