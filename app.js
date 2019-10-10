@@ -1,34 +1,26 @@
-var express=require('express');
-
-var app=express();
-
-app.set('view engine','ejs');
-
-app.use(require('body-parser').urlencoded({extended : true}));
-
-app.set('port',process.env.PORT || 3000);
-
+const express = require('express');
+//const expressLayouts = require('express-ejs-layouts');
+const mongoose = require('mongoose');
+const app = express();
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname+'css'));
+app.use(express.static(__dirname+'node_modules'));
+// DB Config
+const db = require('./config/keys').MongoURI;
+// Connect to Mongo
+mongoose.connect(db, {useNewUrlParser: true })
+ .then(() => console.log('MongoDB connected...'))
+ .catch(err => console.log(err));
+ //EJS
+app.set('view engine', 'ejs');
+//BodyParser
+app.use(express.urlencoded({extended : false}));
 
+//Routes
+app.use('/', require('./routes/index'));
+app.use('/users', require('./routes/users'));
 
-app.get('/',function(req,res){
-    res.render('home');
-});
+const PORT = process.env.PORT || 3000;
 
-app.get('/login',function(req,res){
-  res.render('login');
-});
-
-app.get('/register',function(req,res){
-  res.render('register');
-});
-
-app.use(function(req,res,next){
-    console.log("looking for url"+ req.url);
-});
-
-
-app.listen(app.get('port'), function(){
-  console.log('Express started on http://localhost:' + app.get('port') + ' press Ctrl-C to terminate');
-});
+app.listen (PORT, console.log(`Server started on port ${PORT}`));
 
