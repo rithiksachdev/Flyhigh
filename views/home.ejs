@@ -1,4 +1,476 @@
 <% include partials/header.ejs %>
+<style>
+    .sinfo {
+        background: rgba(255, 255, 255, 0.35);
+        padding: 2em;
+        border-radius: 1em;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        margin-top: 10px;
+        opacity: 1;
+        background-color: #fff;
+        mix-blend-mode: luminosity;
+        z-index: 5;
+        align-content: center;
+    }
+
+    .topinfo {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .info_bar {
+        background-color: #000000;
+        height: 270px;
+        width: 460px;
+        border-radius: 10px;
+        box-shadow: 0 0 7px #000;
+    }
+
+    .mas {
+        background-color: #ad2121;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        padding-left: 150px;
+    }
+
+    .name {
+        border-radius: 8px;
+        border: 0;
+        width: 400px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        box-shadow: 0 0 7px #000;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .number {
+        border-radius: 8px;
+        border: 0;
+        width: 400px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        box-shadow: 0 0 7px #000;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .date {
+        border-radius: 8px;
+        border: 0;
+        width: 400px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        box-shadow: 0 0 7px #000;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    .order {
+        border-radius: 8px;
+        border: 0;
+        width: 400px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        box-shadow: 0 0 7px #000;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+    #order2 {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: #e9e9e9;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        border: 0;
+        color: #7a7a7a;
+        box-shadow: 0 0 7px #000;
+    }
+
+    .add {
+        align-content: center;
+        align-items: center;
+        position: relative;
+        left: 34%;
+        background-color: #10add4;
+        border: 0;
+        width: 100px;
+        height: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        color: #ffffff;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        box-shadow: 0 0 7px #000;
+        transition: 2s;
+    }
+
+    .add:hover {
+        background-color: #20687a;
+        color: #e2e2e2;
+    }
+
+    #myInput {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 12px;
+        background-repeat: no-repeat;
+        /* width: 398px; */
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+
+    #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #myUL li a {
+        border: 1px solid #ddd;
+        margin-top: -1px;
+        /* Prevent double borders */
+        background-color: #f6f6f6;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block
+    }
+
+    #myUL li a:hover:not(.header) {
+        background-color: #eee;
+    }
+
+    .add_add {
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+
+    }
+
+    .add_add2 {
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .add_add3 {
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .add_add4 {
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .add_add5 {
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    body {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+        color: #777;
+        background-color: #bb9696;
+        background-image: url('https://images.unsplash.com/photo-1467241850596-6a0de48568da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80');
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact button[type="submit"] {
+        font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+    }
+
+    #contact {
+        background: fade(#F9F9F9, 85);
+        padding: 25px;
+        margin: 80px 0;
+    }
+
+    #contact h3 {
+        color: #000;
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+    }
+
+    fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea {
+        width: 100%;
+        border: 1px solid #CCC;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+    }
+
+    #contact input[type="text"]:hover,
+    #contact input[type="email"]:hover,
+    #contact input[type="tel"]:hover,
+    #contact input[type="url"]:hover,
+    #contact textarea:hover {
+        -webkit-transition: border-color 0.3s ease-in-out;
+        -moz-transition: border-color 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out;
+        border: 1px solid #AAA;
+    }
+
+    #contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+    }
+
+    #contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: #000;
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 25px 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    #contact button[type="submit"]:hover {
+        background: #09C;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #contact button[type="submit"]:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    #contact input:focus,
+    #contact textarea:focus {
+        outline: 0;
+        border: 1px solid #999;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #888;
+    }
+
+    :-moz-placeholder {
+        color: #888;
+    }
+
+    ::-moz-placeholder {
+        color: #888;
+    }
+
+    :-ms-input-placeholder {
+        color: #888;
+    }
+
+    label.error {
+        color: darkred;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    input.error {
+        border-color: darkred !important;
+    }
+</style>
+<div class="info_bar" style="top: 40%; left: 35%; position: relative; height: 200px; width:450px">
+    <div class="mas" id="mas"></div>
+    
+    <input type="text" class="name" id="name" value="" placeholder="Current Location">
+    <br>
+    <input type="text" class="number" id="number" value="" placeholder="Destination">
+    <!--<input type="text" class="date" id="date" value="" placeholder="Date">-->
+    <br>
+    <input type="text" class="order" id="order" value="" placeholder="Number of Passengers">
+    <br>
+<input type="date" name="dateoftravel" id="dateoftravel" value="" placeholder="Date">
+<button class="add" id="search" onclick="add()">Search</button>
+</div>
+</div>
+<section style="margin-top: 900px;">
+
+    <div class="topinfo">
+        <div class="sinfo">
+            <p>
+                <br>
+                <h1><strong>About Us</strong></h1>
+                <hr />
+                <br>
+                <h3 style="font-family: 'Times New Roman', Times; text-transform:none;"><strong>
+                        The Next Generation Flight Management Systems (NGFMS) raise the bar in technical innovation with
+                        solutions for years to come. To meet the needs of all aircraft sizes,the NGFMS is optimized for
+                        future Air Traffic Management (ATM) functionality to and deliver improved fuel efficiency,
+                        reduced direct operating costs, reduced pilot workload and improved safety.
+
+                        With a completely redesigned architecture, the NGFMS software was built to utilize a modular
+                        design that allows for aircraft specific adjustments in hardware, operating systems,
+                        Input/Output (IO) and other features. The system can run the same core functionality on multiple
+                        platforms with little modification from the core FMS functionality. This supports flight deck
+                        philosophies of multiple aircraft manufacturers and allows for the necessary amount of tailoring
+                        and customization to the user interface. This simplifies integration into flight operations by
+                        requiring minimal system training through common functionality
+                    </strong>
+                </h3>
+            </p>
+            <br>
+            <br>
+            <form id="contact" action="" method="post">
+                <h3>Contact Us</h3>
+                <h4>Contact us today, and get reply with in 24 hours!</h4>
+                <fieldset>
+                    <input placeholder="Full Name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Web Site (starting with http://)" id="website" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send now</button>
+                </fieldset>
+            </form>
+
+
+
+        </div>
+
+    </div>
+</section>
+<script>
+    $(window).scroll(function () {
+        $(".topinfo").css({ "marginTop": -($(window).scrollTop()) / 8 + "px", "marginLeft": ($(window).scrollLeft()) + "px" });
+    });
+
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+
+    function add() {
+
+    }
+
+    $("#contact").validate({
+        rules: {
+            website: {
+                required: true,
+                url: true
+            }
+        },
+        submitHandler: function (form) {
+            form.submit();
+        }
+    });
+</script>
 <% include partials/navbar.ejs %>
-<% include search.html %>
 <% include partials/footer.ejs %>

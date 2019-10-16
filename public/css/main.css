@@ -82,10 +82,34 @@ a {
 
 .navbar {
 
-  border-radius: 20px;
+  
   -webkit-box-shadow: 0 8px 6px -6px rgb(17, 12, 12);
     -moz-box-shadow: 0 8px 6px -6px rgb(10, 8, 8);
     box-shadow: 0 8px 6px -6px rgb(12, 10, 10);
 }
 
-
+[type="date"] {
+	background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+	display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+  }
+  #dateoftravel{
+	  margin-left: 23px;
+  }
+  /* custom styles */
+  #search{
+	  margin-left:-113px;
+  }
+  input {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 3px 5px;
+	box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+	width: 250px;
+  }
+  
