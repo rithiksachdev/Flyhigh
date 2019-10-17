@@ -1,0 +1,788 @@
+[
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 7 hours 55 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "11:40am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "2:00pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 8 hours 55 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "12:50pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "3:00pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 15 hours 50 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "7:50pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:55pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 11 hours 25 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:35pm",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "10:35pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "6:00am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:00am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 11 hours 30 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "3:15pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "5:35pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 10 hours 35 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "2:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "4:40pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 8 hours 10 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "12:05pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "2:15pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 16 hours 45 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "8:40pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "10:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 17 hours 40 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "9:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "11:45pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 12 hours 20 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:35pm",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "10:35pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "6:55am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:55am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 6 hours 30 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "10:20am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "12:35pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 13 hours 35 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "9:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "11:45pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 7 hours 25 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "3:15pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "5:35pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 12 hours 40 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "8:40pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "10:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 6 hours 30 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "2:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "4:40pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 5 hours 5 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "8:45am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "11:10am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "111.97",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 11 hours 45 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "7:50pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:55pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "119.32",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 6 hours 5 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "5:40pm",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:00pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "9:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "11:45pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "119.32",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 5 hours 10 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "5:40pm",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:00pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "8:40pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "10:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "146.62",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 11 hours 0 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "7:00pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "146.62",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 13 hours 10 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:35pm",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "10:35pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "7:30am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:45am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "146.62",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 14 hours 5 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "5:45pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:10pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "146.62",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 10 hours 0 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "10:10am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "12:25pm"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "5:45pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:10pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "146.62",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 15 hours 5 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:05am",
+                "arrival_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_airport": "Delhi, India (DEL-Indira Gandhi Intl.)",
+                "departure_time": "7:00pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 35 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "12:05am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "1:40am"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 35 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "6:50pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:25pm"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "9:30am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "10:45am"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "11:05am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "12:35pm"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "5:40am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "7:10am"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "226.75",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "7:20am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "8:50am"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "38.85",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "12:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "1:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "432.12",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 4 hours 35 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Dehavilland DHC-8",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:25am",
+                "arrival_airport": "Bhopal, India (BHO)",
+                "arrival_time": "10:05am"
+            },
+            {
+                "departure_airport": "Bhopal, India (BHO)",
+                "departure_time": "11:10am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "1:00pm"
+            }
+        ],
+        "plane code": "DH8"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket_price": "446.82",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 4 hours 5 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Boeing 737",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "3:35pm",
+                "arrival_airport": "Tirupati, India (TIR)",
+                "arrival_time": "4:45pm"
+            },
+            {
+                "departure_airport": "Tirupati, India (TIR)",
+                "departure_time": "5:45pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "7:40pm"
+            }
+        ],
+        "plane code": "737"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "47.25",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Vistara",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:10am",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:35am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket_price": "54.60",
+        "departure": ", Hyderabad",
+        "arrival": ", Mumbai",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Vistara",
+        "plane": "Boeing 737-800",
+        "timings": [
+            {
+                "departure_airport": "Hyderabad, India (HYD-Rajiv Gandhi Intl.)",
+                "departure_time": "8:30pm",
+                "arrival_airport": "Mumbai, India (BOM-Chhatrapati Shivaji Intl.)",
+                "arrival_time": "9:55pm"
+            }
+        ],
+        "plane code": "73H"
+    }
+]

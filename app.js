@@ -2,6 +2,7 @@ const express = require('express');
 //const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const app = express();
+
 app.use(express.static(__dirname + '/public'));
 // DB Config
 const db = require('./config/keys').MongoURI;
@@ -16,6 +17,7 @@ app.set('view engine', 'ejs');
 //BodyParser
 app.use(express.urlencoded({ extended: true }));
 //Routes
+
 app.use('/', require('./routes/index'));
 app.use('/users', require('./routes/users'));
 

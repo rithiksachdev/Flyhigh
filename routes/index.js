@@ -7,4 +7,10 @@ router.post('/', (req,res) => {
     res.render('final');
 });
 
+router.post('/', function(request, response){
+    console.log(request.body.user.sadd);
+    console.log(request.body.user.dadd);
+    console.log(request.body.user.date);
+});
+
 module.exports = router;
