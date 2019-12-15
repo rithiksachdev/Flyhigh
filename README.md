@@ -11,6 +11,6 @@ Real time flight reservation system
 5.pyhton<br /> 
 6.json<br />
 
-To run this project use command 
+To run this project on localhost:3000 use command 
 ### node app.js 
  
