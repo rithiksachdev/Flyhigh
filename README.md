@@ -1,5 +1,5 @@
 # Flyhigh
-Real time flight reservation system 
+Real time flight results system 
 
 ## This is a group project aimed at helping users get real time flight costs from diffrent websites and give best possible fare results 
 
